@@ -109,10 +109,11 @@ dependencies:
   # -----------------------------
   # Euclid- and project-specific packages not available via conda
   - pip:
-      - euclidlib==2025.2
+      - euclidlib==2026.1
       - nautilus-sampler==1.0.6
       - seaborn==0.13.2
       - tf_keras==2.20.1
+      - pre-commit
 
 # ============================================================
 # End of environment definition
