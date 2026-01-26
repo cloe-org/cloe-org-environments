@@ -1,4 +1,4 @@
-# 🚀 cloe-org-environments
+# 🗂️ cloe-org-environments
 
 **Unified Mamba/Conda environments for the entire `cloe-org` ecosystem.**
 
