@@ -8,14 +8,14 @@ This repository provides **versioned, ready-to-use Conda/Mamba environment speci
 
 ## 🔧 Quick start
 
-Create the environment directly from GitHub:
+Clone this repository and create the environment directly from GitHub using either `conda` or `mamba` (we strongly recommend `mamba`):
 
 ```bash
-mamba env create -f https://raw.githubusercontent.com/cloe-org/cloe-org-environments/main/environments/cloe-org-env-[VERSION].yaml
-mamba activate cloe-org-env-[VERSION]
+mamba/conda env create -f ./environments/cloe-org-env-[VERSION].yaml
+mamba/conda activate cloe-org-env-[VERSION]
 ```
 
-Replace `[VERSION]` with the desired release (e.g. `v2026.1`).
+Replace `[VERSION]` with your desired release (e.g., `v2026.1`).
 
 ---
 
