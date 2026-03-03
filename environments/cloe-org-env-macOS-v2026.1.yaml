@@ -109,7 +109,7 @@ dependencies:
   # -----------------------------
   # Euclid- and project-specific packages not available via conda
   - pip:
-      - euclidlib==2026.1
+      - euclidlib==2026.2
       - nautilus-sampler==1.0.6
       - seaborn==0.13.2
       - tf_keras==2.20.1
