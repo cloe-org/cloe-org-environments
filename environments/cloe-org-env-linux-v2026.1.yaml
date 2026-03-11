@@ -57,9 +57,7 @@ dependencies:
   - pip:
       - euclidlib==2026.2
       - nautilus-sampler==1.0.6
-      - comet-emu
       - seaborn
-      - astropy
       - tf-keras==2.20.*
       - pre-commit
 # ============================================================
