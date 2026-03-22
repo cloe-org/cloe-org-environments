@@ -4,13 +4,22 @@
 
 This repository provides **versioned, ready-to-use Conda/Mamba environment specifications** so you can get started immediately.
 
-We strongly recommend the use of mamba, The Fast Cross-Platform Package Manager, due to the drastic change in the Terms of Service (ToS) of Anaconda :snake:. 
+---
 
-If you use `conda` and default conda channels, you might incur in fees, if your organization has more than 200 employees.
-See:  https://www.fz-juelich.de/en/rse/the_latest/the-anaconda-is-squeezing-us
+> [!WARNING]
+> 🟧 **Important: Conda vs Mamba Usage**
+>
+> We strongly recommend using **mamba** (The Fast Cross-Platform Package Manager) due to recent changes in the **Anaconda Terms of Service (ToS)** 🐍.
+>
+> If you use `conda` with the default Anaconda channels, your organization **may incur licensing fees** if it has more than 200 employees.
+>
+> 🔗 More info: https://www.fz-juelich.de/en/rse/the_latest/the-anaconda-is-squeezing-us
 
-While primarily targeting speed and reliability, this package/environment manager has conda-forge as default channel to pull the packages from. 
-This community-driven channel is independent of Anaconda and avoids any ToS breaches, while keeping the great features of such a package/environment system based on conda.
+---
+
+While primarily targeting speed and reliability, this environment manager uses **conda-forge as the default channel**.
+
+This community-driven channel is independent of Anaconda, avoiding any ToS issues while preserving the powerful features of the Conda ecosystem.
 
 
 ---
