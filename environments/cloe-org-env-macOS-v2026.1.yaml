@@ -50,6 +50,7 @@ dependencies:
   - libcblas=3.11.0=*_openblas
   - liblapack=3.11.0=*_openblas
   - libopenblas=0.3.30=openmp_*
+  - scipy=1.17.1
 
   # --- GSL & numerical utilities ---
   - gsl=2.8
