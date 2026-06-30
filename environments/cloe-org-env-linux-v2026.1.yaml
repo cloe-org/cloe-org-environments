@@ -37,6 +37,7 @@ dependencies:
   # --- GSL & numerical utilities ---
   - gsl
   - libgfortran5
+  - scipy=1.17.1
 
   # --- C++ / compiler toolchain ---
   # Needed for pybind11, Boost, and compiled extensions
