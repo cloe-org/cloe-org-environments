@@ -24,6 +24,7 @@ dependencies:
   - wheel
   - gsl
   - libgfortran5
+  - scipy=1.17.1
   - gcc=15.2.0
   - gxx=15.2.0
   - ipython
