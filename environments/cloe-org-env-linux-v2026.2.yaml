@@ -1,0 +1,39 @@
+# =====================================================================
+# cloe-org - Conda/Mamba Environment
+# ---------------------------------------------------------------------
+# Purpose:
+#   - smoothly run cloe-org ecosystem
+#   - provide a matched C/C++ compiler toolchain for compiled backends
+#
+# Notes:
+#   - Python 3.12
+#   - v2026.2 keeps v2026.1 unchanged and adds a matched GCC/G++ toolchain
+# =====================================================================
+
+name: cloe-org-env
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - python=3.12
+  - cpython
+  - pip
+  - setuptools
+  - wheel
+  - gsl
+  - libgfortran5
+  - scipy=1.17.1
+  - gcc=15.2.0
+  - gxx=15.2.0
+  - ipython
+  - ipykernel
+  - jupyter
+  - matplotlib
+  - pip:
+      - euclidlib
+      - nautilus-sampler==1.0.6
+      - seaborn
+      - tf-keras==2.20.*
+      - pre-commit
