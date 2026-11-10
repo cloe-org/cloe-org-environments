@@ -163,3 +163,7 @@ RUN pip install --no-cache-dir \
 # Download the HMCode 2020 emulator to avoid writing it later.
 RUN python -c "import HMcode2020Emu"
 
+# For workflow management
+RUN pip install --no-cache-dir \
+    "snakemake==8.30.0"
+
